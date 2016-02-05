@@ -42,7 +42,6 @@ var numba = function string( string ) {
 };
 
 numba();
-console.log( numba[1] );
 
 //FUNCTION
 
