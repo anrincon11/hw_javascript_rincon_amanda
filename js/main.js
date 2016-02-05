@@ -41,7 +41,10 @@ var numba = function( string ) {
 		}
 };
 
-numba();
+numba( '7' );
+
+//numba( 'seventy' );
+//numba( 'university' );
 
 //FUNCTION
 
