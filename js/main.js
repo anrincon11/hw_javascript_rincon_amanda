@@ -31,9 +31,7 @@ console.log( howdy() );
 
 //FUNCTION EXPRESSION
 
-var numba = function string( options ) {
-	var words = [ '7', 'seventy', 'university' ];
-	for ( var i = 0; i < numba.length; i++ ) {
+var numba = function( string ) {
 		if ( string.length < 7 ) {
 			console.log( 'What a short little word!' );
 		} else if ( string.length > 7 ) {
@@ -41,11 +39,9 @@ var numba = function string( options ) {
 		} else {
 			console.log( '7, what a perfect choice!' );
 		}
-	}
 };
 
 numba();
-console.log( numba[1] );
 
 //FUNCTION
 
