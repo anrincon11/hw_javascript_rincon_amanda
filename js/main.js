@@ -1,5 +1,9 @@
+//ARRAY
+
 var iceCream = [ 'Rocky Road', 'Chocolate Chip', 'Lemon Sorbet',
 	'Vanilla' ];
+
+//OBJECTS INSIDE AN ARRAY
 
 var presidents = [
 		{ firstName: 'Barack', lastName: 'Obama',
@@ -16,9 +20,38 @@ var presidents = [
 
 console.log( presidents[ 2 ].firstName, presidents[ 2 ].lastName );
 
-function howdy ( person, message ) {
-	return person + 'says' + message;
+//FUNCTION DECLARATION
+
+function howdy() {
+	return 'Amanda Rincon says hello!';
 }
 
-var greeting = combiner( 'Amanda Rincon', 'Hi!' );
-console.log( message );
+howdy();
+console.log( howdy() );
+
+//FUNCTION EXPRESSION
+
+var numba = function string( options ) {
+	var words = [ '7', 'seventy', 'university' ];
+	for ( var i = 0; i < numba.length; i++ ) {
+		if ( string.length < 7 ) {
+			console.log( 'What a short little word!' );
+		} else if ( string.length > 7 ) {
+			console.log( 'I am sorry, but that is too many to count.' );
+		} else {
+			console.log( '7, what a perfect choice!' );
+		}
+	}
+};
+
+numba();
+console.log( numba[1] );
+
+//FUNCTION
+
+function inception( callback, value ) {
+    return callback + value;
+}
+
+var movie = inception( 'Inception ', 'is a fantastic movie!' );
+console.log( movie );
